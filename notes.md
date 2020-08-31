@@ -3,6 +3,7 @@ Doc string:
 ```
   """
     Return a 2-D array with ones on the diagonal and zeros elsewhere.
+    
     Parameters
     ----------
     N : int
@@ -19,15 +20,18 @@ Doc string:
         Whether the output should be stored in row-major (C-style) or
         column-major (Fortran-style) order in memory.
         .. versionadded:: 1.14.0
+    
     Returns
     -------
     I : ndarray of shape (N,M)
       An array where all elements are equal to zero, except for the `k`-th
       diagonal, whose values are equal to one.
+    
     See Also
     --------
     identity : (almost) equivalent function
     diag : diagonal 2-D array from a 1-D array specified by the user.
+    
     Examples
     --------
     >>> np.eye(2, dtype=int)
@@ -39,3 +43,4 @@ Doc string:
            [ 0.,  0.,  0.]])
     """
     ```
+From https://github.com/numpy/numpy/blob/v1.14.2/numpy/lib/twodim_base.py#L140-L194
