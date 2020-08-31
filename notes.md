@@ -1,4 +1,6 @@
-Doc string:
+# Notes
+
+## Doc string:
 
 ```
   """
@@ -42,12 +44,12 @@ Doc string:
            [ 0.,  0.,  1.],
            [ 0.,  0.,  0.]])
     """
-    ```
+```
 
 From https://github.com/numpy/numpy/blob/v1.14.2/numpy/lib/twodim_base.py#L140-L194
 
 
-Function equivalent to round():
+## Function equivalent to round():
 
 ```
 num = 3007123.14152936
