@@ -8,3 +8,5 @@ Lessons
 Google ML course:
 > https://developers.google.com/machine-learning/crash-course
    
+Kaggle Courses:
+> https://www.kaggle.com/learn/overview
