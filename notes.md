@@ -44,3 +44,22 @@ Doc string:
     """
     ```
 From https://github.com/numpy/numpy/blob/v1.14.2/numpy/lib/twodim_base.py#L140-L194
+
+
+Function equivalent to round():
+```
+# Put your test code here
+
+num = 3007123.14152936
+places = -2
+print("round: ", round(num, places))
+#print("round with negative places: ", round(num, -places))
+
+
+print( "floor division: ", ( num // (10**(-places)) )*(10**(-places)) )
+
+def round2(numb, places):
+    return ( numb // (10**(-places)) )*(10**(-places))
+
+print("round2: ", round2(num, places))
+```
