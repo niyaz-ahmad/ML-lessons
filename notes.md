@@ -41,7 +41,7 @@ Doc string:
     array([[ 0.,  1.,  0.],
            [ 0.,  0.,  1.],
            [ 0.,  0.,  0.]])
-    """
+    \"\"\"
     ```
 From https://github.com/numpy/numpy/blob/v1.14.2/numpy/lib/twodim_base.py#L140-L194
 
