@@ -41,15 +41,15 @@ Doc string:
     array([[ 0.,  1.,  0.],
            [ 0.,  0.,  1.],
            [ 0.,  0.,  0.]])
-    \"\"\"
+    """
     ```
+
 From https://github.com/numpy/numpy/blob/v1.14.2/numpy/lib/twodim_base.py#L140-L194
 
 
 Function equivalent to round():
-```
-# Put your test code here
 
+```
 num = 3007123.14152936
 places = -2
 print("round: ", round(num, places))
